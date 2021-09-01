@@ -6,7 +6,7 @@ library('BayesTree')
 
 covariates = input_2016
 for( i in 1:77){
-  for(j in 1:10){
+  for(j in 1:100){
     data <- as.data.frame(dgp_2016(input_2016, i, j)) 
     
     Ytrain = data$y
